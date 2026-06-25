@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>關西自由行 2026.07.01–07.09</name>
+  <description>所有提到的地點＋Day 1 夜遊路線＋城市移動。位置為概略值。</description>
+
+  <Style id="air"><IconStyle><color>ff202a2a</color><scale>1.1</scale></IconStyle></Style>
+  <Style id="hotel"><IconStyle><color>ff3f56c0</color><scale>1.1</scale></IconStyle></Style>
+  <Style id="see"><IconStyle><color>ff8c7a3f</color><scale>1.1</scale></IconStyle></Style>
+  <Style id="food"><IconStyle><color>ff2f96c9</color><scale>1.1</scale></IconStyle></Style>
+  <Style id="sta"><IconStyle><color>ff777777</color><scale>1.0</scale></IconStyle></Style>
+  <Style id="day1line"><LineStyle><color>cc3f56c0</color><width>4</width></LineStyle></Style>
+  <Style id="cityline"><LineStyle><color>aa8c7a3f</color><width>3</width></LineStyle></Style>
+
+  <Folder><name>機場</name>
+    <Placemark><name>關西機場 KIX</name><description>去/回程機場（HARUKA↔京都・南海↔難波）</description><styleUrl>#air</styleUrl><Point><coordinates>135.2440,34.4339,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder><name>住宿</name>
+    <Placemark><name>TUNE STAY KYOTO</name><description>京都住宿 7/1–7/5・京都站旁</description><styleUrl>#hotel</styleUrl><Point><coordinates>135.7575,34.9897,0</coordinates></Point></Placemark>
+    <Placemark><name>布倫扎酒店（神戸）</name><description>神戸住宿 7/5–7/7・三宮站旁</description><styleUrl>#hotel</styleUrl><Point><coordinates>135.1928,34.6928,0</coordinates></Point></Placemark>
+    <Placemark><name>Sotetsu Grand Fresa Osaka-Namba</name><description>大阪住宿 7/7–7/9・近鉄日本橋</description><styleUrl>#hotel</styleUrl><Point><coordinates>135.5065,34.6655,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder><name>景點</name>
+    <Placemark><name>圓光寺</name><description>十牛之庭 苔×青楓・¥600・9–17（7/1 攝影主推）</description><styleUrl>#see</styleUrl><Point><coordinates>135.7959,35.0535,0</coordinates></Point></Placemark>
+    <Placemark><name>詩仙堂</name><description>唐樣庭園・¥700・9–17</description><styleUrl>#see</styleUrl><Point><coordinates>135.7953,35.0523,0</coordinates></Point></Placemark>
+    <Placemark><name>貴船神社</name><description>七夕點燈 ~20:00・免費</description><styleUrl>#see</styleUrl><Point><coordinates>135.7625,35.1215,0</coordinates></Point></Placemark>
+    <Placemark><name>下鴨神社</name><description>已去過</description><styleUrl>#see</styleUrl><Point><coordinates>135.7728,35.0388,0</coordinates></Point></Placemark>
+    <Placemark><name>瑠璃光院</name><description>机面青楓倒影 ¥2,000・另排上午・八瀬</description><styleUrl>#see</styleUrl><Point><coordinates>135.8049,35.0976,0</coordinates></Point></Placemark>
+    <Placemark><name>南禅寺 水路閣</name><description>已去過</description><styleUrl>#see</styleUrl><Point><coordinates>135.7949,35.0114,0</coordinates></Point></Placemark>
+    <Placemark><name>伏見稲荷大社</name><description>千本鳥居・24h・京都南邊</description><styleUrl>#see</styleUrl><Point><coordinates>135.7727,34.9671,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder><name>美食</name>
+    <Placemark><name>京都站・午餐區</name><description>第一旭／新福菜館／かつくら／松葉／親子丼／拉麺小路</description><styleUrl>#food</styleUrl><Point><coordinates>135.7619,34.9869,0</coordinates></Point></Placemark>
+    <Placemark><name>茶房いせはん</name><description>甜點 あんみつ／パフェ ~¥1,000・週二休（7/1 開）</description><styleUrl>#food</styleUrl><Point><coordinates>135.7699,35.0307,0</coordinates></Point></Placemark>
+    <Placemark><name>出町ふたば</name><description>名代豆餅 ¥220（外帶）</description><styleUrl>#food</styleUrl><Point><coordinates>135.7696,35.0305,0</coordinates></Point></Placemark>
+    <Placemark><name>加茂みたらし茶屋</name><description>元祖みたらし団子 ¥500・週三休</description><styleUrl>#food</styleUrl><Point><coordinates>135.7715,35.0399,0</coordinates></Point></Placemark>
+    <Placemark><name>茶寮 宝泉</name><description>現做わらび餅 ~¥1,400・週三・四休</description><styleUrl>#food</styleUrl><Point><coordinates>135.7649,35.0524,0</coordinates></Point></Placemark>
+    <Placemark><name>一乗寺中谷</name><description>緑茶ティラミス ¥450・週三休</description><styleUrl>#food</styleUrl><Point><coordinates>135.7945,35.0512,0</coordinates></Point></Placemark>
+    <Placemark><name>一乗寺・晚餐區</name><description>極鶏／珍遊／魁力屋／高安／夢を語れ</description><styleUrl>#food</styleUrl><Point><coordinates>135.7918,35.0455,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder><name>車站</name>
+    <Placemark><name>出町柳駅</name><description>轉乘叡電・甜點區起點</description><styleUrl>#sta</styleUrl><Point><coordinates>135.7729,35.0301,0</coordinates></Point></Placemark>
+    <Placemark><name>貴船口駅</name><description>叡電・步行上山 25–30 分</description><styleUrl>#sta</styleUrl><Point><coordinates>135.7637,35.1165,0</coordinates></Point></Placemark>
+    <Placemark><name>三ノ宮駅</name><description>神戸</description><styleUrl>#sta</styleUrl><Point><coordinates>135.1957,34.6950,0</coordinates></Point></Placemark>
+    <Placemark><name>南海なんば駅</name><description>大阪→關西機場</description><styleUrl>#sta</styleUrl><Point><coordinates>135.5010,34.6625,0</coordinates></Point></Placemark>
+  </Folder>
+
+  <Folder><name>路線</name>
+    <Placemark><name>Day 1 夜遊路線</name><styleUrl>#day1line</styleUrl><LineString><tessellate>1</tessellate><coordinates>
+      135.7588,34.9858,0 135.7729,35.0301,0 135.7918,35.0455,0 135.7637,35.1165,0 135.7625,35.1215,0
+    </coordinates></LineString></Placemark>
+    <Placemark><name>城市移動</name><styleUrl>#cityline</styleUrl><LineString><tessellate>1</tessellate><coordinates>
+      135.2440,34.4339,0 135.7588,34.9858,0 135.1957,34.6950,0 135.5020,34.6648,0 135.2440,34.4339,0
+    </coordinates></LineString></Placemark>
+  </Folder>
+
+</Document>
+</kml>
